@@ -14,4 +14,5 @@ function createDealerPed()
   SetBlockingOfNonTemporaryEvents(dealerPed, true)
   SetModelAsNoLongerNeeded(dealerPedModel)
   TaskStartScenarioInPlace(dealerPed, config.pedanimation, 0 ,true)
+end
   
