@@ -1,10 +1,11 @@
-config = {}
+Config = {}
 
------- | Ped | ------
-config.pedmodel = '' -- Pick the Ped Model Hash
-config.scenario = '' -- Pick the Ped Scenario to play, false to disable
-config.location = vec3(0.0, 50.0, 0.0)
-config.heading = 149.7562
-config.pedanimation = 
-
+------| PED SECTION |------
+Config.WeedProccessBoss = {
+    {
+        WeedPedModel = 'ig_jimmydisanto',
+        WeedPedLocation = vec4(-210.81, -1363.409, 30.258, 32.287),
+        RenderDistance = 35,
+    }
+}
 ------ |  | ------
