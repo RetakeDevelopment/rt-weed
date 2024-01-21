@@ -34,6 +34,9 @@ local function DestroyLocalNPC(index)
         LocalNPCs[index] = nill
     end 
 end
+------| END OF PED CREATION |------
+------| CREATING TARGET ON PED |------
+
 
 
 ------| KEEP THIS AT BOTTOM |------
